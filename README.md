@@ -4,9 +4,16 @@
 
 ![Screenshot](./screenshot.png)
 
-## Install
+## About this theme
 
-All instructions can be found at [draculatheme.com/tmux](https://draculatheme.com/tmux).
+This is a very opinionated project, as I am a Tech Lead, this theme is very developer-focused.
+
+### Installation using TPM
+
+In your `tmux.conf`:
+```
+set -g @plugin "nathanroark/nathan-tmux-theme"
+```
 
 ## Configuration
 
