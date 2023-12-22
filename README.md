@@ -1,7 +1,5 @@
 # Nathan's Theme for [tmux](https://github.com/tmux/tmux/wiki)
 
-> A dark theme for [tmux](https://github.com/tmux/tmux/wiki)
-
 > Forked Dracula tmux theme and changed all the scripts to my preferences 
 
 ![Screenshot](./screenshot.png)
