@@ -1,12 +1,10 @@
 # Nathan's Theme for [tmux](https://github.com/tmux/tmux/wiki)
 
-> Forked Dracula tmux theme and changed all the scripts to my preferences 
-
 ![Screenshot](./screenshot.png)
 
 ## About this theme
 
-This is a very opinionated project, as I am a Tech Lead, this theme is very developer-focused.
+Forked Dracula tmux theme and changed all the scripts to my preferences.
 
 ### Installation using TPM
 
