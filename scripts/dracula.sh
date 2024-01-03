@@ -49,14 +49,17 @@ main()
   #
   # Nathan's Color Pallette
   white='#f8f8f2'
-  gray='#1b1e28'
+  # gray='#1b1e28'
+  gray='#121214'
   dark_gray='#121214'
   light_purple='#bd93f9'
   # dark_purple='#44475a' # old dark purple before darker
   dark_purple='#282a36'
   cyan='#8be9fd'
-  blue='#85c1dc'
-  green='#98ff98'
+  # blue='#85c1dc' # old blue before darker
+  blue='#5e81ac'
+  # green='#98ff98' # old green before darker
+  green='#9ae0c1'
   mint='#aaf0d1'
   orange='#ffb86c'
   red='#ff5555'
@@ -142,10 +145,10 @@ main()
   # Status left
   if $show_powerline; then
     # tmux set-option -g status-left "#[bg=${green},fg=${dark_gray}]#{?client_prefix,#[bg=${yellow}],} ${left_icon} #[fg=${green},bg=${gray}]#{?client_prefix,#[fg=${yellow}],}${left_sep}"
-    tmux set-option -g status-left "#[bg=${blue},fg=${dark_gray}]#{?client_prefix,#[bg=${yellow}],} ${left_icon} #[fg=${blue},bg=${gray}]#{?client_prefix,#[fg=${yellow}],}${left_sep}"
+    tmux set-option -g status-left "#[bg=${blue},fg=${dark_gray}]#{?client_prefix,#[bg=${orange}],} ${left_icon} #[fg=${blue},bg=${gray}]#{?client_prefix,#[fg=${orange}],}${left_sep}"
     powerbg=${gray}
   else
-    tmux set-option -g status-left "#[bg=${green},fg=${dark_gray}]#{?client_prefix,#[bg=${yellow}],} ${left_icon}"
+    tmux set-option -g status-left "#[bg=${green},fg=${dark_gray}]#{?client_prefix,#[bg=${orange}],} ${left_icon}"
   fi
 
   # Status right
