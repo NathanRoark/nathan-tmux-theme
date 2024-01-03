@@ -49,11 +49,10 @@ main()
   #
   # Nathan's Color Pallette
   white='#f8f8f2'
-  # gray='#1b1e28'
-  gray='#111120'
-  dark_gray='#111120'
+  gray='#1b1e28'
+  dark_gray='#121214'
   light_purple='#bd93f9'
-  # dark_purple='#44475a' # old purplr before I made everything darker
+  # dark_purple='#44475a' # old dark purple before darker
   dark_purple='#282a36'
   cyan='#8be9fd'
   blue='#85c1dc'
