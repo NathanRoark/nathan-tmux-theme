@@ -74,7 +74,7 @@ main()
   # gray='#6e6a86'       # Muted
   # dark_gray='#191724'  # Base
   light_purple='#c4a7e7' # Iris
-  dark_purple='#2a283e'  # Highlight High
+  dark_purple='#44415a'  # Highlight High
   blue='#3e8fb0'         # Pine
   cyan='#9ccfd8'         # Foam
   green='#31748f'        # Pine
