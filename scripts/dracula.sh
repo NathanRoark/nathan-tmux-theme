@@ -69,8 +69,10 @@ main()
 
   # Rosé Pine Color Palette
   white='#e0def4'        # Text
-  gray='#6e6a86'         # Muted
-  dark_gray='#191724'    # Base
+  gray='#121214'         # Highlight Background
+  dark_gray='#121214'    # Background
+  # gray='#6e6a86'       # Muted
+  # dark_gray='#191724'  # Base
   light_purple='#c4a7e7' # Iris
   dark_purple='#524f67'  # Highlight High
   blue='#3e8fb0'         # Pine
@@ -160,7 +162,7 @@ main()
   # Status left
   if $show_powerline; then
     # tmux set-option -g status-left "#[bg=${green},fg=${dark_gray}]#{?client_prefix,#[bg=${yellow}],} ${left_icon} #[fg=${green},bg=${gray}]#{?client_prefix,#[fg=${yellow}],}${left_sep}"
-    tmux set-option -g status-left "#[bg=${blue},fg=${dark_gray}]#{?client_prefix,#[bg=${orange}],} ${left_icon} #[fg=${blue},bg=${gray}]#{?client_prefix,#[fg=${orange}],}${left_sep}"
+    tmux set-option -g status-left "#[bg=${green},fg=${dark_gray}]#{?client_prefix,#[bg=${orange}],} ${left_icon} #[fg=${green},bg=${gray}]#{?client_prefix,#[fg=${orange}],}${left_sep}"
     powerbg=${gray}
   else
     tmux set-option -g status-left "#[bg=${green},fg=${dark_gray}]#{?client_prefix,#[bg=${orange}],} ${left_icon}"
