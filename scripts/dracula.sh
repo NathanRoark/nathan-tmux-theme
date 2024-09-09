@@ -46,42 +46,40 @@ main()
   # red='#ff5555'
   # pink='#ff79c6'
   # yellow='#f1fa8c'
-  #
 
-  # Rosé Pine Color Palette
-  white = '#e0def4'       # Text
-  gray = '#6e6a86'        # Muted
-  dark_gray = '#191724'   # Base
-  light_purple = '#c4a7e7' # Iris
-  dark_purple = '#524f67' # Highlight High
-  cyan = '#9ccfd8'        # Foam
-  green = '#31748f'       # Pine
-  orange = '#f6c177'      # Gold
-  red = '#eb6f92'         # Love
-  pink = '#ebbcba'        # Rose
-  yellow = '#908caa'      # Subtle
-  blue = '#3e8fb0'        # Pine (moon)
-
-  #
-  #
-  # # Nathan's Color Pallette
+  # Nathan's Color Pallette
   # white='#f8f8f2'
-  # # gray='#1b1e28'
+  # gray='#1b1e28'
   # gray='#121214'
   # dark_gray='#121214'
   # light_purple='#bd93f9'
-  # # dark_purple='#44475a' # old dark purple before darker
+  # dark_purple='#44475a' # old dark purple before darker
   # dark_purple='#282a36'
   # cyan='#8be9fd'
-  # # blue='#85c1dc' # old blue before darker
+  # blue='#85c1dc' # old blue before darker
   # blue='#5e81ac'
-  # # green='#98ff98' # old green before darker
+  # green='#98ff98' # old green before darker
   # green='#9ae0c1'
-  # mint='#aaf0d1'
+  mint='#9ccfd8'
   # orange='#ffb86c'
   # red='#ff5555'
   # pink='#ff79c6'
   # yellow='#f1fa8c'
+
+
+  # Rosé Pine Color Palette
+  white='#e0def4'        # Text
+  gray='#6e6a86'         # Muted
+  dark_gray='#191724'    # Base
+  light_purple='#c4a7e7' # Iris
+  dark_purple='#524f67'  # Highlight High
+  blue='#3e8fb0'         # Pine
+  cyan='#9ccfd8'         # Foam
+  green='#31748f'        # Pine
+  orange='#f6c177'       # Gold
+  red='#eb6f92'          # Love
+  pink='#ebbcba'         # Rose
+  yellow='#f6d177'       # Subtle
 
   # Handle left icon configuration
   case $show_left_icon in
@@ -162,7 +160,7 @@ main()
   # Status left
   if $show_powerline; then
     # tmux set-option -g status-left "#[bg=${green},fg=${dark_gray}]#{?client_prefix,#[bg=${yellow}],} ${left_icon} #[fg=${green},bg=${gray}]#{?client_prefix,#[fg=${yellow}],}${left_sep}"
-    tmux set-option -g status-left "#[bg=${green},fg=${dark_gray}]#{?client_prefix,#[bg=${orange}],} ${left_icon} #[fg=${green},bg=${gray}]#{?client_prefix,#[fg=${orange}],}${left_sep}"
+    tmux set-option -g status-left "#[bg=${blue},fg=${dark_gray}]#{?client_prefix,#[bg=${orange}],} ${left_icon} #[fg=${blue},bg=${gray}]#{?client_prefix,#[fg=${orange}],}${left_sep}"
     powerbg=${gray}
   else
     tmux set-option -g status-left "#[bg=${green},fg=${dark_gray}]#{?client_prefix,#[bg=${orange}],} ${left_icon}"
