@@ -60,7 +60,7 @@ main()
   # blue='#5e81ac'
   # green='#98ff98' # old green before darker
   # green='#9ae0c1'
-  mint='#9ccfd8'
+  # mint='#9ccfd8'
   # orange='#ffb86c'
   # red='#ff5555'
   # pink='#ff79c6'
@@ -74,8 +74,8 @@ main()
   # gray='#6e6a86'       # Muted
   # dark_gray='#191724'  # Base
   light_purple='#c4a7e7' # Iris
-  dark_purple='#44415a'  # Highlight High
-  blue='#3e8fb0'         # Pine
+  dark_purple='#2a283e'  # Highlight High
+  blue='#3e8fb0'         # Pine (moon)
   cyan='#9ccfd8'         # Foam
   green='#31748f'        # Pine
   orange='#f6c177'       # Gold
