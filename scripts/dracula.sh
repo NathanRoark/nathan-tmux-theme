@@ -49,17 +49,18 @@ main()
   #
 
   # Rosé Pine Color Palette
-white = '#e0def4'       # Text
-gray = '#6e6a86'        # Muted
-dark_gray = '#191724'   # Base
-light_purple = '#c4a7e7' # Iris
-dark_purple = '#524f67' # Highlight High
-cyan = '#9ccfd8'        # Foam
-green = '#31748f'       # Pine
-orange = '#f6c177'      # Gold
-red = '#eb6f92'         # Love
-pink = '#ebbcba'        # Rose
-yellow = '#908caa'      # Subtle
+  white = '#e0def4'       # Text
+  gray = '#6e6a86'        # Muted
+  dark_gray = '#191724'   # Base
+  light_purple = '#c4a7e7' # Iris
+  dark_purple = '#524f67' # Highlight High
+  cyan = '#9ccfd8'        # Foam
+  green = '#31748f'       # Pine
+  orange = '#f6c177'      # Gold
+  red = '#eb6f92'         # Love
+  pink = '#ebbcba'        # Rose
+  yellow = '#908caa'      # Subtle
+  blue = '#3e8fb0'        # Pine (moon)
 
   #
   #
