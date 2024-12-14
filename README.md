@@ -4,11 +4,12 @@
 
 ## About this theme
 
-Forked Dracula tmux theme and changed all the scripts to my preferences.
+Started from Dracula tmux theme and changed the scripts to my preferences.
 
 ### Installation using TPM
 
 In your `tmux.conf`:
+
 ```
 set -g @plugin "nathanroark/nathan-tmux-theme"
 ```
