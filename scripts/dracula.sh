@@ -67,6 +67,22 @@ main()
   # yellow='#f1fa8c'
 
 
+  # # Rosé Pine Color Palette
+  # white='#e0def4'        # Text
+  # gray='#121214'         # Highlight Background
+  # dark_gray='#121214'    # Background
+  # # gray='#6e6a86'       # Muted
+  # # dark_gray='#191724'  # Base
+  # light_purple='#c4a7e7' # Iris
+  # dark_purple='#2a283e'  # Highlight High
+  # blue='#3e8fb0'         # Pine (moon)
+  # cyan='#9ccfd8'         # Foam
+  # green='#31748f'        # Pine
+  # orange='#f6c177'       # Gold
+  # red='#eb6f92'          # Love
+  # pink='#ebbcba'         # Rose
+  # yellow='#f6d177'       # Subtle
+
   # Rosé Pine Color Palette
   white='#e0def4'        # Text
   gray='#121214'         # Highlight Background
@@ -77,11 +93,12 @@ main()
   dark_purple='#2a283e'  # Highlight High
   blue='#3e8fb0'         # Pine (moon)
   cyan='#9ccfd8'         # Foam
-  green='#31748f'        # Pine
+  green='#98ff98' # old green before darker
   orange='#f6c177'       # Gold
   red='#eb6f92'          # Love
   pink='#ebbcba'         # Rose
   yellow='#f6d177'       # Subtle
+
 
   # Handle left icon configuration
   case $show_left_icon in
@@ -162,7 +179,7 @@ main()
   # Status left
   if $show_powerline; then
     # tmux set-option -g status-left "#[bg=${green},fg=${dark_gray}]#{?client_prefix,#[bg=${yellow}],} ${left_icon} #[fg=${green},bg=${gray}]#{?client_prefix,#[fg=${yellow}],}${left_sep}"
-    tmux set-option -g status-left "#[bg=${green},fg=${dark_gray}]#{?client_prefix,#[bg=${orange}],} ${left_icon} #[fg=${green},bg=${gray}]#{?client_prefix,#[fg=${orange}],}${left_sep}"
+    # tmux set-option -g status-left "#[bg=${green},fg=${dark_gray}]#{?client_prefix,#[bg=${orange}],} ${left_icon} #[fg=${green},bg=${gray}]#{?client_prefix,#[fg=${orange}],}${left_sep}"
     powerbg=${gray}
   else
     tmux set-option -g status-left "#[bg=${green},fg=${dark_gray}]#{?client_prefix,#[bg=${orange}],} ${left_icon}"
